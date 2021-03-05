@@ -1,3 +1,2 @@
 # aweif.com
-> To the moon.
-
+> aweif[ɔː ɪf], to the moon.
