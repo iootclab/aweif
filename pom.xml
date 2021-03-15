@@ -4,19 +4,33 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.aweif</groupId>
-    <artifactId>aweif</artifactId>
-    <version>${revision}</version>
+    <groupId>com.awesome</groupId>
+    <artifactId>aweif-all</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+
     <packaging>pom</packaging>
-    <name>Awe If</name>
-    <description>Awe IF</description>
+
+    <name>Awe If Labs ${project.version}</name>
+    <description>Awe IF Research</description>
+    <url>https://aweif.com</url>
     <properties>
-        <revision>1.0.0-SNAPSHOT</revision>
-        <main.basedir>${basedir}</main.basedir>
+
     </properties>
-    <profiles>
 
-    </profiles>
+    <organization>
+        <name>Awe If Labs</name>
+        <url>https://aweif.com</url>
+    </organization>
 
+    <licenses>
+        <license>
+            <name>Apache License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+        </license>
+    </licenses>
+
+    <modules>
+
+    </modules>
 
 </project>
