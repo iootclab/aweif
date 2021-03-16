@@ -30,7 +30,12 @@
     </licenses>
 
     <modules>
-
+        <module>aweif-parent</module>
+        <module>aweif-core</module>
+        <module>aweif-gateway</module>
+        <module>aweif-buyer-bff</module>
+        <module>aweif-seller-bff</module>
+        <module>aweif-admin-bff</module>
     </modules>
 
 </project>
