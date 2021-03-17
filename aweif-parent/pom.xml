@@ -7,6 +7,7 @@
     <groupId>com.awesome</groupId>
     <artifactId>aweif-parent</artifactId>
     <version>1.0.0-SNAPSHOT</version>
+    <name>aweif.com</name>
 
     <!--<parent>-->
     <!--</parent>-->
@@ -19,10 +20,20 @@
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <spring-cloud.version>Greenwich.SR6</spring-cloud.version>
         <spring-boot.version>2.1.17.RELEASE</spring-boot.version>
+        <spring-cloud-alibaba.version>2.2.5.RELEASE</spring-cloud-alibaba.version>
+        <alibaba-nacos.version>2.0.0-BETA</alibaba-nacos.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
+
+            <dependency>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-dependencies</artifactId>
+                <version>${spring-cloud-alibaba.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
 
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
